@@ -16,6 +16,7 @@ To manage an inventory of physical display panels used for advertising in shoppi
 4. **id** - code for ID generation.
 5. **routes** - route handling, request/response adapter, and user authentication middleware.
 6. **controller** - transformation related code for request/response and invocation of services. 
+7. **db/pg.sql** - ddl statements for the tables: shopping_centre, location_within_centre, asset, asset_allocation, and change_log.
 
 ## Patterns
 1. **Dependency Injection** - Used to inject Repository implementation to management services and ID Generator into domain entities
